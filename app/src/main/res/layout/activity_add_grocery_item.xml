@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddGroceryItemActivity">
+
+
+    <LinearLayout
+        android:paddingLeft="16dp"
+        android:paddingTop="28dp"
+        android:paddingRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="@string/name_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+            <EditText
+                android:id="@+id/label_text"
+
+                android:textSize="24sp"
+                android:hint="@string/add_grocery_add_item_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical">
+            <TextView
+                android:text="@string/quantity_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+            <EditText
+                android:id="@+id/quanity_text"
+                android:textSize="24sp"
+                android:hint="@string/add_grocery_add_quantity_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Button
+            android:text="@string/add_item_btn"
+            android:id="@+id/btn_operation"
+            android:onClick="addBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

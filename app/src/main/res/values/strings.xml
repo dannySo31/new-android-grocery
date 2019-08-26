@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">New Grocery</string>
+    <string name="app_name">My Grocery</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_item">Add Item</string>
+    <string name="name_label">Name</string>
+    <string name="quantity_label">Quantity</string>
+    <string name="add_item_btn">Add</string>
+    <string name="update_item_btn">Update</string>
+    <string name="add_grocery_add_item_hint">Item name</string>
+    <string name="add_grocery_add_quantity_hint">Quantity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="view_item">View item</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="add_grocery_item">Add grocery item</string>
+    <string name="edit_grocery_item">Edit grocery item</string>
 </resources>
